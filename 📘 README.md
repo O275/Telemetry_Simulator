@@ -22,15 +22,16 @@ This small project shows working knowledge of:
 
 ```powershell
 g++ -std=c++17 -Wall main.cpp -o telemetry.exe
-
+```
 
 If using the Visual Studio Developer Command Prompt:
-
+```
 cl /EHsc main.cpp
-
+```
 ▶️ Run
+```powershell
 .\telemetry.exe
-
+```
 
 The program outputs telemetry_log.csv with simulated coordinates, altitude, and timestamp.
 
@@ -41,8 +42,9 @@ Latitude,Longitude,Altitude,Timestamp
 35.001000,-78.001000,305,1761049547
 
 🐍 Validate with Python
+```powershell
 python check_log.py
-
+```
 
 Expected output:
 
@@ -50,10 +52,10 @@ Expected output:
 ...
 
 📂 Project Structure
-├── main.cpp
-├── check_log.py
-├── telemetry_log.csv
-└── README.md
+├── main.cpp         
+├── check_log.py      
+├── README.md        
+└── .gitignore 
 
 🧩 Notes
 
