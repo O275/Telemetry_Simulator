@@ -1,0 +1,22 @@
+# build artifacts
+*.exe
+*.obj
+*.o
+*.ilk
+*.pdb
+*.pch
+*.log
+*.tmp
+*.d
+/Debug/
+/Release/
+/x64/
+/x86/
+/build/
+/bin/
+/out/
+/.vs/
+/.vscode/
+
+# generated data
+telemetry_log.csv
